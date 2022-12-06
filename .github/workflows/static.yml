@@ -2,7 +2,7 @@
 <html class="staticrypt-html">
 <head>
     <meta charset="utf-8">
-    <title>Protected Page</title>
+    <title>Tablero Alco-Estupe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- do not cache this page -->
@@ -70,21 +70,16 @@
         }
 
         .staticrypt-body {
-            height: 100%;
-            margin: 0;
-        }
-
-        .staticrypt-content {
-            height: 100%;
+            background-image: url('PHCYMGVT3NCDHEHBJR3BQEYUZE.jpg');
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #333;
             margin-bottom: 1em;
-            background: #76b852; /* fallback for old browsers */
-            background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-            background: -moz-linear-gradient(right, #76b852, #8DC26F);
-            background: -o-linear-gradient(right, #76b852, #8DC26F);
-            background: linear-gradient(to left, #76b852, #8DC26F);
-            font-family: "Arial", sans-serif;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
+            font-family: 'Arial',sans-serif;
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
         }
 
         .staticrypt-instructions {
@@ -116,69 +111,16 @@
         .staticrypt-footer a {
             text-decoration: none;
         }
-
-        label.staticrypt-remember {
-            display: flex;
-            align-items: center;
-            margin-bottom: 1em;
-        }
-
-        .staticrypt-remember input[type=checkbox] {
-            transform: scale(1.5);
-            margin-right: 1em;
-        }
-
-        .hidden {
-            display: none !important;
-        }
-
-        .staticrypt-spinner-container {
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .staticrypt-spinner {
-            display: inline-block;
-            width: 2rem;
-            height: 2rem;
-            vertical-align: text-bottom;
-            border: 0.25em solid gray;
-            border-right-color: transparent;
-            border-radius: 50%;
-            -webkit-animation: spinner-border .75s linear infinite;
-            animation: spinner-border .75s linear infinite;
-            animation-duration: 0.75s;
-            animation-timing-function: linear;
-            animation-delay: 0s;
-            animation-iteration-count: infinite;
-            animation-direction: normal;
-            animation-fill-mode: none;
-            animation-play-state: running;
-            animation-name: spinner-border;
-        }
-
-        @keyframes spinner-border {
-            100% {
-                transform: rotate(360deg);
-            }
-        }
     </style>
 </head>
 
 <body class="staticrypt-body">
-
-<div id="staticrypt_loading" class="staticrypt-spinner-container">
-    <div class="staticrypt-spinner"></div>
-</div>
-
-<div id="staticrypt_content" class="staticrypt-content hidden">
-    <div class="staticrypt-page">
-        <div class="staticrypt-form">
-            <div class="staticrypt-instructions">
-                <p class="staticrypt-title">Protected Page</p>
-                <p></p>
+<div class="staticrypt-page">
+    <div class="staticrypt-form">
+        <div class="staticrypt-instructions">
+            <p class="staticrypt-title">Tablero Alco-Estupe</p>
+                <p><p><img alt="Tableros" style="height:1080px; width:1920px" /></p>
+</p>
             </div>
 
             <hr class="staticrypt-hr">
@@ -359,8 +301,8 @@ exports.init = init;
     var decode = codec.init(cryptoEngine).decode;
 
     // variables to be filled when generating the file
-    var encryptedMsg = '870e6bf814eaff3a9da2db719b2e18c9f0101b962535f700185fa41ebd82297db6b4c3706de724c9adb2edeebb54a6feU2FsdGVkX1+YtWcvUux+xVmjwdgkV33/s9L5Pn1HFvHqagBmyCOhT81GvJ6FVnQlP3ZDHtTGy99ufp0nV8rSQHTCXIELMcngFwuKD6kfK/mqRLGZWXItHYDesqvV3Ya7YKK8e7cFwsMaA9GF3mp2JS2ErrQD1d0zwc1jyXXD0NDHwJsouhYnMxhCDvrHChZDlvLapNPaSUwso1SgZTLeykhrtt07gBWFiq9dilvh1AZpI6iJxH2zvBryP6bhzVdNo8Y//HBlaIzv6emz+03fXLVsC5sFFbrqIfFRiGeqa9l9bOXHz0Saf547i4P+K4PcOcPT+She4T5hsI32t2cifihxvNwWVQBzfYPI4pS5LZnm0jryvWbg4oOuCk9FVQKxyFBMTKygR5Ve+i7kYO1WJWwUO1qpE/ICwwi1wzsQaig=',
-        salt = '401f5a67981607019e3fff263877cff2',
+    var encryptedMsg = 'c152892a4292eadf68082b6d6b255429bbc0ee8dc0e4891a787f6a70b42e38b034c0b606b21cbf8fa5dcaaa5a8c2039eU2FsdGVkX19X3SM7xzLr3nGsC8oSyAC5T4WkVam9Qnrcr9vcBj5K2YrdJAxtOyjt10TlYzvlgkLj8h4sa7BNIuTeIhURUnKFeg+F6dHc4/MbHo4bhbVyljSlc0F7G0/B6qPTJM2LyRLHPHy3b8gSgyAXuw3Wvp7c8uTlVEr6jbNeH6Aq8mWm5ACoIQCa+/HSLQHRBTNGtFxCaa4UuUGPsv8BrmyBisBb4sO7yCs8HugoAI3nPsFj7Ire3+mtpFKabJ95JcQTq4Y/oq+Paqy5XNws+rpsWz9b3hE1i28z5T44IdqjLvbPChkxYcxMRae5ldOE9xeiCsHGAGIEZrTioiA2QVAvZTB/gmI4RT+0tXa6VxRoL6WVj0FEb5B2qkIGqSBB/j3V07RAxVgZD4zEjlPVm25yuB/8JIoU464WJiOxRkdhOnyUVcJWKtyDfy1q',
+        salt = '9f75f43658350e52ae62003ebe94ff61',
         labelError = '',
         isRememberEnabled = true,
         rememberDurationInDays = 0; // 0 means forever
@@ -506,3 +448,4 @@ exports.init = init;
 </script>
 </body>
 </html>
+
